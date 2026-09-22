@@ -28,7 +28,7 @@ def run_agent_cycle():
         task_desc = current_task["task_description"]
 
         # ৩. Gemini AI-এর মাধ্যমে সিদ্ধান্ত ও কাজ সম্পন্ন করা
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel("gemini-3.6-flash")
         
         system_prompt = f"""
         তুমি একটি স্বাধীন স্বায়ত্তশাসিত এআই এজেন্ট (Autonomous AI Agent)। 
